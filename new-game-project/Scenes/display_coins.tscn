@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dx8v5trr3g7d7"]
+
+[ext_resource type="FontFile" uid="uid://big5lstghxibm" path="res://Assets/fonts/PixelOperator8.ttf" id="1_kgs6t"]
+
+[node name="DisplayCoins" type="CanvasLayer"]
+follow_viewport_enabled = true
+
+[node name="CoinCount" type="Label" parent="."]
+unique_name_in_owner = true
+offset_left = -177.0
+offset_top = -77.0
+offset_right = -128.0
+offset_bottom = -60.0
+theme_override_fonts/font = ExtResource("1_kgs6t")
+theme_override_font_sizes/font_size = 8
+text = "Coins: 0"

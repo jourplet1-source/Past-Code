@@ -1,0 +1,16 @@
+{
+  "name": "assessment-2-multi-device-application",
+  "version": "1.0.0",
+  "description": "This is an empty folder for you to submit your Multi-Device Application in. You must submit all the code and assets that are required to run your application. Please consult your tutor if you are unsure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.723.0",
+    "aws-sdk": "^2.1692.0",
+    "express": "^4.21.1"
+  }
+}

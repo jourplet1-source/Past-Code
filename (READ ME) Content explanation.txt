@@ -1,0 +1,9 @@
+This repository contains a selection of programs I have made recently for various reasons, and I have written up this text document to briefly explain what each one of them is and anything important to note about them.
+
+Pokémon Matchup Test: a program made in Open Frameworks to call from an API that contained Pokémon information. The program let you look up Pokémon, displaying their types and base stats and allowing the user to add up to 6 Pokémon they looked up in a team. Once this had been done, the program will let the user view their team's average stats and type matchups to help a user identify their team's weaknesses.
+
+Password Manager: A program I made as part of a group to securely store passwords for a user. The main part of this I did was the node that connects the backend and frontend together, both to pass login information back and forth through a function to check if the user can access the passwords as well as the process of sending the passwords back to an encryption function to be stored in a database and retrieving the passwords from a decryption function to be displayed on the frontend.
+
+Node Maths Question Website: A website I made that was designed to read a series of maths questions off of AWS and let a user try to solve them, with there also being a function to write new questions and answers onto the AWS database. This program can't be run currently due to needing the AWS key, but I made a video showing the functionality which is also included.
+
+New Game Project: A short program I made to learn the basics of Godot, having a small play area containing pits, coins and an enemy for the player to platform around with a counter for the number of coins collected displayed in the corner. All assets used in the game were taken from an online sprite repository by Brackeys, who have included the licensing information for the assets used in the folder.

@@ -1,0 +1,41 @@
+html{
+    background-color: grey;
+    padding: 20px;/*Using padding on the HTML and percentage width on the body allows a border to be created around the content*/
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: whitesmoke;
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    padding-bottom: 60px;/*I added a larger amount of padding on the bottom because that helped fill the empty space beneath the question by placing the colour divide there*/
+    width:80%;
+    margin: auto;
+}
+input[type=text]{
+    padding: 5px;
+    max-width: 70%;/*Without this limiter, the input field sometimes extended out of the surrounding border*/
+}
+input[type=text]:focus{
+    background-color: lightblue;
+}
+@media(min-width: 1024px){/*Allows the program to respond to desktop and laptop users, making the content better fill the screen*/
+    body{
+        width: 60%;/*Reducing the percentage width and increasing the padding on everything makes the outer rim of the design still feel balanced against the larger text and taller content*/
+        margin: auto;
+        font-size: 2em;
+        padding: 40px;
+        padding-bottom: 120px;
+    }
+    html{
+        padding: 40px;
+    }
+    input[type=text]{
+        padding: 10px;
+        font-size: 1em;/*If the input fields don't have 1em specified, increasing the sze of the body doesn't affect their size*/
+        max-width: 50%;
+    }
+    input[type=submit]{
+        font-size: 1em;
+    }
+}
